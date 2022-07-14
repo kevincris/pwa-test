@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1657821330214,
+  "timestamp": 1657822059500,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -431,8 +431,8 @@
     "/login-login-module-es5.js": "e6ac44c17d56132dbcef509d554578b2b1434924",
     "/mailbox-mailbox-module-es2015.js": "1308e53aa57ce4880fd8d186095a7d84433a7772",
     "/mailbox-mailbox-module-es5.js": "52ec7ebb293fb03dff26ae09133edd2bef6068fe",
-    "/main-es2015.js": "0976c3bda03da958027c5b75b7b941ee4a3e1cd3",
-    "/main-es5.js": "30e8d43edbf233a82d40870c7f8f6aac021126e5",
+    "/main-es2015.js": "49c7e373cdac36c94ae30e428b579abbf1b78431",
+    "/main-es5.js": "6a88ada149ae9ab7aedf410c6e252ee1a378f844",
     "/manifest.webmanifest": "7e25331529c1e0c5596f1f3f63a578b2f3458bcc",
     "/notifications-notifications-module-es2015.js": "7caf63e00165ca00aacf843c59f09ebf027a0208",
     "/notifications-notifications-module-es5.js": "17797765503c6e8c3f98813cd09bf83b7ddab476",
@@ -485,8 +485,8 @@
     "/user-spot-trading-user-spot-trading-module-es5.js": "610d2a845a34a570af76847f9f7b979d821fabea",
     "/user-trades-user-trades-module-es2015.js": "25e3df5eb890306907461e267372a9caa862a781",
     "/user-trades-user-trades-module-es5.js": "0867821fc243e964a8a9596008b2edf5c13250e8",
-    "/vendor-es2015.js": "43f47d818cb6e2e44a6cb390b570c10aa5a82d20",
-    "/vendor-es5.js": "9b281dcdadf98c748066cc9ef978f532a9670bd6",
+    "/vendor-es2015.js": "c90630ee52755bcb0c8ea5a0560dbe1310d01d15",
+    "/vendor-es5.js": "d93105fadb76046878cb0684521569744cdf7b70",
     "/withdraw-withdraw-module-es2015.js": "825f8431e9be9dd87e2bb7705581ba0460ea6ec8",
     "/withdraw-withdraw-module-es5.js": "3f31c65f055f5feaff57a8cb9e7cb702da29c1ce",
     "/xlsx-es2015.js": "db49721c637af1c5cbbe240f86484376858758fc",
