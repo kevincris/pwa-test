@@ -36,19 +36,5 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone",
-    "routing": {
-        "index": "/index.html",
-        "routes": {
-            "/": {
-                "match": "exact"
-            },
-            "/login": {
-                "match": "exact"
-            },
-            "/register": {
-                "match": "exact"
-            }
-        }
-    }
+    "display": "standalone"
 }
