@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1658820368770,
+  "timestamp": 1658823818492,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -384,7 +384,7 @@
     "/keyboard-5742b5da-js.js": "5f839e48431e2852432968b2df6cc715ffa48238",
     "/login-login-module.js": "8a011f549d7dc993440873a430e27c75fb118ce2",
     "/mailbox-mailbox-module.js": "4d27e3c23177f081ad66a7ed2f4435a733a2edac",
-    "/main.js": "33cea1324611093210350891db8b5a91a4b0bf47",
+    "/main.js": "a5641955ad50991f27b638c05f504f0ae2373160",
     "/manifest.webmanifest": "7e25331529c1e0c5596f1f3f63a578b2f3458bcc",
     "/notifications-notifications-module.js": "cdcfb237d749941ad88a97d32cc7d4519b2cc07c",
     "/organization-organization-module.js": "135ee172662b1088b964cfbd5084be2454a44936",
