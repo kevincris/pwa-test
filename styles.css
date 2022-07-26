@@ -286,13 +286,11 @@ ion-input input::-webkit-date-and-time-value {
   padding-top: var(--ion-padding, 16px);
   padding-bottom: var(--ion-padding, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-padding {
     padding-left: unset;
     padding-right: unset;
-    -webkit-padding-start: var(--ion-padding, 16px);
     padding-inline-start: var(--ion-padding, 16px);
-    -webkit-padding-end: var(--ion-padding, 16px);
     padding-inline-end: var(--ion-padding, 16px);
   }
 }
@@ -304,10 +302,9 @@ ion-input input::-webkit-date-and-time-value {
   --padding-start: var(--ion-padding, 16px);
   padding-left: var(--ion-padding, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-padding-start {
     padding-left: unset;
-    -webkit-padding-start: var(--ion-padding, 16px);
     padding-inline-start: var(--ion-padding, 16px);
   }
 }
@@ -315,10 +312,9 @@ ion-input input::-webkit-date-and-time-value {
   --padding-end: var(--ion-padding, 16px);
   padding-right: var(--ion-padding, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-padding-end {
     padding-right: unset;
-    -webkit-padding-end: var(--ion-padding, 16px);
     padding-inline-end: var(--ion-padding, 16px);
   }
 }
@@ -338,13 +334,11 @@ ion-input input::-webkit-date-and-time-value {
   padding-left: var(--ion-padding, 16px);
   padding-right: var(--ion-padding, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-padding-horizontal {
     padding-left: unset;
     padding-right: unset;
-    -webkit-padding-start: var(--ion-padding, 16px);
     padding-inline-start: var(--ion-padding, 16px);
-    -webkit-padding-end: var(--ion-padding, 16px);
     padding-inline-end: var(--ion-padding, 16px);
   }
 }
@@ -368,13 +362,11 @@ ion-input input::-webkit-date-and-time-value {
   margin-top: var(--ion-margin, 16px);
   margin-bottom: var(--ion-margin, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-margin {
     margin-left: unset;
     margin-right: unset;
-    -webkit-margin-start: var(--ion-margin, 16px);
     margin-inline-start: var(--ion-margin, 16px);
-    -webkit-margin-end: var(--ion-margin, 16px);
     margin-inline-end: var(--ion-margin, 16px);
   }
 }
@@ -386,10 +378,9 @@ ion-input input::-webkit-date-and-time-value {
   --margin-start: var(--ion-margin, 16px);
   margin-left: var(--ion-margin, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-margin-start {
     margin-left: unset;
-    -webkit-margin-start: var(--ion-margin, 16px);
     margin-inline-start: var(--ion-margin, 16px);
   }
 }
@@ -397,10 +388,9 @@ ion-input input::-webkit-date-and-time-value {
   --margin-end: var(--ion-margin, 16px);
   margin-right: var(--ion-margin, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-margin-end {
     margin-right: unset;
-    -webkit-margin-end: var(--ion-margin, 16px);
     margin-inline-end: var(--ion-margin, 16px);
   }
 }
@@ -420,13 +410,11 @@ ion-input input::-webkit-date-and-time-value {
   margin-left: var(--ion-margin, 16px);
   margin-right: var(--ion-margin, 16px);
 }
-@supports ((-webkit-margin-start: 0) or (margin-inline-start: 0)) or (-webkit-margin-start: 0) {
+@supports (margin-inline-start: 0) or (-webkit-margin-start: 0) {
   .ion-margin-horizontal {
     margin-left: unset;
     margin-right: unset;
-    -webkit-margin-start: var(--ion-margin, 16px);
     margin-inline-start: var(--ion-margin, 16px);
-    -webkit-margin-end: var(--ion-margin, 16px);
     margin-inline-end: var(--ion-margin, 16px);
   }
 }
@@ -1083,7 +1071,7 @@ $nav-tabs-link-active-border-color: transparent;*/
 .owl-dt-timer-divider:after,.owl-dt-timer-divider:before{content:'';display:inline-block;width:.35em;height:.35em;position:absolute;left:50%;border-radius:50%;transform:translateX(-50%);background-color:currentColor}
 .owl-dt-timer-divider:before{top:35%}
 .owl-dt-timer-divider:after{bottom:35%}
-.owl-dt-control-button{-webkit-user-select:none;-moz-user-select:none;user-select:none;cursor:pointer;outline:0;border:none;-webkit-tap-highlight-color:transparent;display:inline-block;white-space:nowrap;text-decoration:none;vertical-align:baseline;margin:0;padding:0;background-color:transparent;font-size:1em;color:inherit}
+.owl-dt-control-button{-webkit-user-select:none;user-select:none;cursor:pointer;outline:0;border:none;-webkit-tap-highlight-color:transparent;display:inline-block;white-space:nowrap;text-decoration:none;vertical-align:baseline;margin:0;padding:0;background-color:transparent;font-size:1em;color:inherit}
 .owl-dt-control-button .owl-dt-control-button-content{position:relative;display:inline-flex;justify-content:center;align-items:center;outline:0}
 .owl-dt-control-period-button .owl-dt-control-button-content{height:1.5em;padding:0 .5em;border-radius:3px;transition:background-color .1s linear}
 .owl-dt-control-period-button:hover>.owl-dt-control-button-content{background-color:rgba(0,0,0,.12)}
@@ -3752,10 +3740,6 @@ mark,
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(57, 131, 236, 0.25);
 }
-.form-control::-moz-placeholder {
-  color: #b3bac8;
-  opacity: 1;
-}
 .form-control::placeholder {
   color: #b3bac8;
   opacity: 1;
@@ -3769,7 +3753,6 @@ input[type=time].form-control,
 input[type=datetime-local].form-control,
 input[type=month].form-control {
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
 }
 select.form-control:-moz-focusring {
@@ -4131,7 +4114,6 @@ textarea.form-control {
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
-     -moz-user-select: none;
           user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -5335,7 +5317,6 @@ input[type=button].btn-block {
   border: 1px solid #dadfe8;
   border-radius: 0.25rem;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
 }
 .custom-select:focus {
@@ -5444,7 +5425,6 @@ input[type=button].btn-block {
   padding: 0;
   background-color: transparent;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
 }
 .custom-range:focus {
@@ -5500,8 +5480,7 @@ input[type=button].btn-block {
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-moz-range-thumb {
@@ -6203,10 +6182,8 @@ input[type=button].btn-block {
 }
 @media (min-width: 576px) {
   .card-columns {
-    -moz-column-count: 3;
-         column-count: 3;
-    -moz-column-gap: 1.25rem;
-         column-gap: 1.25rem;
+    column-count: 3;
+    column-gap: 1.25rem;
     orphans: 1;
     widows: 1;
   }
@@ -7105,7 +7082,6 @@ a.close.disabled {
   display: block;
   height: calc(100vh - 1rem);
   height: -webkit-min-content;
-  height: -moz-min-content;
   height: min-content;
   content: "";
 }
@@ -7208,7 +7184,6 @@ a.close.disabled {
   .modal-dialog-centered::before {
     height: calc(100vh - 3.5rem);
     height: -webkit-min-content;
-    height: -moz-min-content;
     height: min-content;
   }
 
@@ -8479,17 +8454,14 @@ button.bg-gray:focus {
 }
 .user-select-all {
   -webkit-user-select: all !important;
-     -moz-user-select: all !important;
           user-select: all !important;
 }
 .user-select-auto {
   -webkit-user-select: auto !important;
-     -moz-user-select: auto !important;
           user-select: auto !important;
 }
 .user-select-none {
   -webkit-user-select: none !important;
-     -moz-user-select: none !important;
           user-select: none !important;
 }
 .overflow-auto {
@@ -10924,14 +10896,6 @@ a.text-gray:hover, a.text-gray:focus {
 .breadcrumb-item.active {
   color: #7f8fa4;
 }
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 1rem 0;
-  }
-  to {
-    background-position: 0 0;
-  }
-}
 @keyframes progress-bar-stripes {
   from {
     background-position: 1rem 0;
@@ -10970,13 +10934,11 @@ a.text-gray:hover, a.text-gray:focus {
   background-size: 1rem 1rem;
 }
 .progress-bar-animated {
-  -webkit-animation: 1s linear infinite progress-bar-stripes;
-          animation: 1s linear infinite progress-bar-stripes;
+  animation: 1s linear infinite progress-bar-stripes;
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
-    -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
 }
 .ng-select.ng-select-opened > .ng-select-container {
@@ -11189,7 +11151,6 @@ a.text-gray:hover, a.text-gray:focus {
 }
 .ng-dropdown-panel .ng-dropdown-panel-items .ng-optgroup {
   -webkit-user-select: none;
-     -moz-user-select: none;
           user-select: none;
   padding: 8px 10px;
   font-weight: 500;
@@ -13795,10 +13756,6 @@ mark,
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(57, 131, 236, 0.25);
 }
-.form-control::-moz-placeholder {
-  color: #b3bac8;
-  opacity: 1;
-}
 .form-control::placeholder {
   color: #b3bac8;
   opacity: 1;
@@ -13812,7 +13769,6 @@ input[type=time].form-control,
 input[type=datetime-local].form-control,
 input[type=month].form-control {
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
 }
 select.form-control:-moz-focusring {
@@ -14174,7 +14130,6 @@ textarea.form-control {
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
-     -moz-user-select: none;
           user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
@@ -15378,7 +15333,6 @@ input[type=button].btn-block {
   border: 1px solid #dadfe8;
   border-radius: 0.25rem;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
 }
 .custom-select:focus {
@@ -15487,7 +15441,6 @@ input[type=button].btn-block {
   padding: 0;
   background-color: transparent;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
 }
 .custom-range:focus {
@@ -15543,8 +15496,7 @@ input[type=button].btn-block {
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-moz-range-thumb {
@@ -16246,10 +16198,8 @@ input[type=button].btn-block {
 }
 @media (min-width: 576px) {
   .card-columns {
-    -moz-column-count: 3;
-         column-count: 3;
-    -moz-column-gap: 1.25rem;
-         column-gap: 1.25rem;
+    column-count: 3;
+    column-gap: 1.25rem;
     orphans: 1;
     widows: 1;
   }
@@ -17148,7 +17098,6 @@ a.close.disabled {
   display: block;
   height: calc(100vh - 1rem);
   height: -webkit-min-content;
-  height: -moz-min-content;
   height: min-content;
   content: "";
 }
@@ -17251,7 +17200,6 @@ a.close.disabled {
   .modal-dialog-centered::before {
     height: calc(100vh - 3.5rem);
     height: -webkit-min-content;
-    height: -moz-min-content;
     height: min-content;
   }
 
@@ -18534,17 +18482,14 @@ button.bg-gray:focus {
 }
 .user-select-all {
   -webkit-user-select: all !important;
-     -moz-user-select: all !important;
           user-select: all !important;
 }
 .user-select-auto {
   -webkit-user-select: auto !important;
-     -moz-user-select: auto !important;
           user-select: auto !important;
 }
 .user-select-none {
   -webkit-user-select: none !important;
-     -moz-user-select: none !important;
           user-select: none !important;
 }
 .overflow-auto {
@@ -21017,13 +20962,11 @@ a.text-gray:hover, a.text-gray:focus {
   background-size: 1rem 1rem;
 }
 .progress-bar-animated {
-  -webkit-animation: 1s linear infinite progress-bar-stripes;
-          animation: 1s linear infinite progress-bar-stripes;
+  animation: 1s linear infinite progress-bar-stripes;
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar-animated {
-    -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
 }
 /* rubik-300 - latin */
@@ -21273,8 +21216,7 @@ h6.hr:before {
 .avatar .img-avatar {
   width: 48px;
   height: 48px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .avatar .avatar-status {
   position: absolute;
@@ -21296,8 +21238,7 @@ h6.hr:before {
 .avatar.avatar-xs .img-avatar {
   width: 26px;
   height: 26px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .avatar.avatar-xs .avatar-status {
   position: absolute;
@@ -21319,8 +21260,7 @@ h6.hr:before {
 .avatar.avatar-sm .img-avatar {
   width: 36px;
   height: 36px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .avatar.avatar-sm .avatar-status {
   position: absolute;
@@ -21342,8 +21282,7 @@ h6.hr:before {
 .avatar.avatar-md .img-avatar {
   width: 64px;
   height: 64px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .avatar.avatar-md .avatar-status {
   position: absolute;
@@ -21365,8 +21304,7 @@ h6.hr:before {
 .avatar.avatar-lg .img-avatar {
   width: 72px;
   height: 72px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .avatar.avatar-lg .avatar-status {
   position: absolute;
@@ -21389,8 +21327,7 @@ h6.hr:before {
 .avatar.avatar-xl .img-avatar {
   width: 96px;
   height: 96px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .avatar.avatar-xl .avatar-status {
   position: absolute;
@@ -21412,8 +21349,7 @@ h6.hr:before {
 .avatar.avatar-xxl .img-avatar {
   width: 112px;
   height: 112px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .avatar.avatar-xxl .avatar-status {
   position: absolute;
@@ -21496,10 +21432,8 @@ h4.notifiable .notify {
   z-index: 10;
   border: 5px solid #d94a3d;
   border-radius: 70px;
-  -webkit-animation: heartbit 1s ease-out;
-          animation: heartbit 1s ease-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation: heartbit 1s ease-out;
+  animation-iteration-count: infinite;
 }
 .notify .point {
   width: 6px;
@@ -21509,28 +21443,6 @@ h4.notifiable .notify {
   position: absolute;
   right: 6px;
   top: -10px;
-}
-@-webkit-keyframes heartbit {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  25% {
-    transform: scale(0.1);
-    opacity: 0.1;
-  }
-  50% {
-    transform: scale(0.5);
-    opacity: 0.3;
-  }
-  75% {
-    transform: scale(0.8);
-    opacity: 0.5;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0;
-  }
 }
 @keyframes heartbit {
   0% {
@@ -21695,8 +21607,7 @@ h4.notifiable .notify {
   transition: none;
 }
 .loading::after {
-  -webkit-animation: loading 500ms infinite linear;
-          animation: loading 500ms infinite linear;
+  animation: loading 500ms infinite linear;
   border: 0.2rem solid white;
   border-radius: 0.8rem;
   border-right-color: transparent;
@@ -21713,14 +21624,6 @@ h4.notifiable .notify {
 }
 .loading-inverse::after {
   border-color: #e9ecef;
-}
-@-webkit-keyframes loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 @keyframes loading {
   0% {
@@ -22185,8 +22088,7 @@ h4.notifiable .notify {
 }
 @media (min-width: 576px) {
   .card-columns.cols-2 {
-    -moz-column-count: 2;
-         column-count: 2;
+    column-count: 2;
   }
 }
 .card-placeholder {
@@ -22274,15 +22176,12 @@ h4.notifiable .notify {
 .dropdown-menu {
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   transition: box-shadow 0.35s ease 5s;
-  -webkit-animation-duration: 200ms;
-          animation-duration: 200ms;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-duration: 200ms;
+  animation-fill-mode: both;
 }
 .dropdown-menu.show {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-  -webkit-animation-name: showDropdown;
-          animation-name: showDropdown;
+  animation-name: showDropdown;
 }
 .dropdown-divider {
   margin-top: 0.5rem;
@@ -22355,16 +22254,6 @@ h4.notifiable .notify {
 .dropdown-item:active {
   background-color: rgba(57, 131, 236, 0.1);
   color: #3983ec !important;
-}
-@-webkit-keyframes showDropdown {
-  0% {
-    opacity: 0;
-    transform: scale(0.8);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
 }
 @keyframes showDropdown {
   0% {
@@ -22504,8 +22393,7 @@ img.grey {
   background-image: url("/img/brand/logo-symbol.svg");
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-animation: pulse 2s ease-in-out infinite;
-          animation: pulse 2s ease-in-out infinite;
+  animation: pulse 2s ease-in-out infinite;
   height: 192px;
   width: 192px;
   position: absolute;
@@ -22513,17 +22401,6 @@ img.grey {
   left: 50%;
   margin-top: -96px;
   margin-left: -96px;
-}
-@-webkit-keyframes pulse {
-  0% {
-    transform: scale(0.5);
-  }
-  70% {
-    transform: scale(0.6);
-  }
-  100% {
-    transform: scale(0.5);
-  }
 }
 @keyframes pulse {
   0% {
@@ -22537,8 +22414,7 @@ img.grey {
   }
 }
 .spinner {
-  -webkit-animation: rotate 2s linear infinite;
-          animation: rotate 2s linear infinite;
+  animation: rotate 2s linear infinite;
   z-index: 2;
   position: absolute;
   top: 50%;
@@ -22556,25 +22432,10 @@ img.grey {
 .spinner .path {
   stroke: #e9ecef;
   stroke-linecap: round;
-  -webkit-animation: modern-dash 1.5s ease-in-out infinite;
-          animation: modern-dash 1.5s ease-in-out infinite;
+  animation: modern-dash 1.5s ease-in-out infinite;
 }
 .spinner-dark .path {
   stroke: #1f2e3d;
-}
-@-webkit-keyframes modern-dash {
-  0% {
-    stroke-dasharray: 1, 150;
-    stroke-dashoffset: 0;
-  }
-  50% {
-    stroke-dasharray: 90, 150;
-    stroke-dashoffset: -35;
-  }
-  100% {
-    stroke-dasharray: 90, 150;
-    stroke-dashoffset: -124;
-  }
 }
 @keyframes modern-dash {
   0% {
@@ -22929,9 +22790,6 @@ img.grey {
   color: #495057;
   box-shadow: none !important;
   margin-left: -0.75rem;
-}
-.app-header .navbar .form-control::-moz-placeholder {
-  color: #a6aebe;
 }
 .app-header .navbar .form-control::placeholder {
   color: #a6aebe;
@@ -23924,8 +23782,7 @@ section + section.flush-with-above {
 }
 .custom-list {
   list-style: none;
-  -webkit-padding-start: 50px;
-          padding-inline-start: 50px;
+  padding-inline-start: 50px;
 }
 .custom-list div {
   display: flex;
@@ -23938,12 +23795,10 @@ section + section.flush-with-above {
   flex-basis: 85%;
 }
 .custom-list div span {
-  -webkit-padding-start: 50px;
-          padding-inline-start: 50px;
+  padding-inline-start: 50px;
 }
 .custom-list.no-padding {
-  -webkit-padding-start: 0px !important;
-          padding-inline-start: 0px !important;
+  padding-inline-start: 0px !important;
 }
 .overlay {
   position: relative;
@@ -24040,20 +23895,8 @@ section + section.flush-with-above {
   width: 80px;
   height: 2px;
   background: #3983ec;
-  -webkit-animation: exordo-loader 3s ease infinite;
-          animation: exordo-loader 3s ease infinite;
+  animation: exordo-loader 3s ease infinite;
   border-radius: 1px;
-}
-@-webkit-keyframes exordo-loader {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: calc(100% - 80px);
-  }
-  100% {
-    left: 0;
-  }
 }
 @keyframes exordo-loader {
   0% {
@@ -24304,8 +24147,7 @@ contact-book .list-group-item:first-child {
   margin: 3rem auto;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-left-color: #50b652;
-  -webkit-animation: loader-spin 1.2s infinite linear;
-          animation: loader-spin 1.2s infinite linear;
+  animation: loader-spin 1.2s infinite linear;
   position: relative;
   display: block;
   border-radius: 50%;
@@ -24316,12 +24158,9 @@ contact-book .list-group-item:first-child {
   display: none;
 }
 .checkmark.draw:after {
-  -webkit-animation-duration: 800ms;
-          animation-duration: 800ms;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
-  -webkit-animation-name: checkmark;
-          animation-name: checkmark;
+  animation-duration: 800ms;
+  animation-timing-function: ease;
+  animation-name: checkmark;
   transform: scaleX(-1) rotate(135deg);
 }
 .checkmark:after {
@@ -24337,8 +24176,7 @@ contact-book .list-group-item:first-child {
   position: absolute;
 }
 .load-complete {
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
   border-color: #50b652;
   transition: border 500ms ease-out;
 }
@@ -24348,42 +24186,12 @@ contact-book .list-group-item:first-child {
 label[for=amount] {
   cursor: pointer;
 }
-@-webkit-keyframes loader-spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 @keyframes loader-spin {
   0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes checkmark {
-  0% {
-    height: 0;
-    width: 0;
-    opacity: 1;
-  }
-  20% {
-    height: 0;
-    width: 1.75em;
-    opacity: 1;
-  }
-  40% {
-    height: 3.5em;
-    width: 1.75em;
-    opacity: 1;
-  }
-  100% {
-    height: 3.5em;
-    width: 1.75em;
-    opacity: 1;
   }
 }
 @keyframes checkmark {
@@ -25052,7 +24860,6 @@ toastr * {
   align-items: center;
   font-weight: 500;
   -webkit-user-select: none;
-     -moz-user-select: none;
           user-select: none;
   border-radius: 0.25rem;
   border: 1px solid transparent;
@@ -25069,8 +24876,7 @@ toastr * {
   max-height: 32px;
   max-width: 120px;
   display: block;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   filter: grayscale(1);
   opacity: 0.3;
 }
@@ -25205,8 +25011,7 @@ toastr * {
 .product-box > a > img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transition: transform 0.4s;
   border-radius: 0.2rem;
 }
@@ -25337,8 +25142,7 @@ investment-confirmation .list-group .list-group-item {
   outline: none;
   overflow-y: auto;
   padding: 12px 15px;
-  -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   -moz-tab-size: 4;
   text-align: left;
   white-space: pre-wrap;
@@ -26246,3 +26050,5 @@ investment-confirmation .list-group .list-group-item {
   border: 1px solid #ccc;
 }
 
+
+/*# sourceMappingURL=styles.css.map*/
