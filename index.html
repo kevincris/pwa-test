@@ -96,7 +96,7 @@
  if ( ( browser == "Chrome" && version < 120 ) || ( browser == "Firefox" && version < 53 ) || ( browser == "Safari" && version < 5 ) || ( browser == "IE" && version < 11 ) || ( browser == "Opera" && version < 52 ) ) {
      var appRoot = document.getElementsByTagName('app-root')[0];
      if (appRoot) {
-       appRoot.innerHTML = '<h1 style="text-align: center; line-height: 200px">Your browser is outdated. Please upgrade to load this webpage.</h1>';
+       appRoot.innerHTML = '<div class="app flex-column align-items-center"><div class="container mt-3"><div class="row justify-content-center"><div class="col-md-12"><div class="media"><h2 class="mr-4 text-monospace">:(</h2><div class="media-body"><h1 class="mt-0">Browser not supported</h1><p>To access this page, please update your browser.</p></div></div></div></div></div></div>';
      }
  }
          </script>
