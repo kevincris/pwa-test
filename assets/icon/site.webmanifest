@@ -1,7 +1,7 @@
 {
     "name": "Aerapass",
     "short_name": "Aerapass",
-    "start_url": "./",
+    "start_url": "/",
     "icons": [
         {
             "src": "/assets/icon/android-chrome-192x192.png",
